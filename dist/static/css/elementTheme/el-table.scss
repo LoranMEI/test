@@ -1,0 +1,66 @@
+.el-table >>>{
+  background-color: #303133;
+}
+  .el-table >>> th,
+  .el-table >>>tr {
+    background-color: #303133;
+    color: #fff;
+}
+  .el-table>>> tr:hover td{
+    background-color: #303133;
+}
+  .el-table >>> .el-table__body-wrapper {
+    background-color: #303133;
+    color: #fff;
+    border: none;
+}
+  .el-table >>> .el-table__body >>> tr:hover > td >>> {
+    background-color: #303133;
+}
+  .el-table >>>.el-table__header-wrapper>>>{
+    background-color: #303133;
+}
+  .el-table >>> tr:hover >>> {
+    background-color: #303133;
+}
+  .el-table >>> th.is-leaf,
+  .el-table >>> td {
+    border-bottom: 1px solid grey;
+}
+  .el-table--border::after, .el-table--group::after, .el-table::before {
+    background-color: grey;
+}
+  .el-table >>> .el-table--border::after,
+  .el-table >>> .el-table--group::after,
+  .el-table >>> ::before {
+    background-color: #303133 !important;
+}
+
+  .el-table >>> th.is-leaf,
+  .el-table >>> td {
+    border-bottom: 1px solid grey;
+}
+  .el-table>>> th,
+  .el-table>>> tr,
+  .el-table>>> tr:hover{
+    background-color: #303133 !important;
+}
+  .el-table>>> tr:hover{
+    background-color: #303133 !important;
+    color: #09f !important;
+}
+  .el-table>>> tr:hover td {
+    background-color: #303133 !important;
+}
+  .el-table>>> tr:hover > td {
+    background-color: #303133 !important;
+}
+  .el-table >>>.el-table--striped .el-table__body tr.el-table__row--striped.current-row td,
+  .el-table >>> .el-table__body tr.current-row>td,
+  .el-table >>>.el-table__body tr.hover-row.current-row>td,
+  .el-table >>>.el-table__body tr.hover-row.el-table__row--striped.current-row>td,
+  .el-table >>>.el-table__body tr.hover-row.el-table__row--striped>td,
+  .el-table >>>.el-table__body tr.hover-row>td {
+    background-color: #303133 !important;
+    color: #09f !important;
+}

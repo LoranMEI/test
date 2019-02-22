@@ -1,0 +1,28 @@
+{"replace_source":[
+
+  {"label":"谷歌影像",
+    "value":[
+      {"date":"201712","legend":"","tileurl":"http://mt1.google.cn/vt/lyrs=s@113&hl=nl&x={x}&y={y}&z={z}&s=","tileSize":256,"tiletype":"raster"},
+      {"date":"201805","legend":"","tileurl":"http://mt1.google.cn/vt/lyrs=s@113&hl=nl&x={x}&y={y}&z={z}&s=","tileSize":256,"tiletype":"raster"}
+    ]
+  },
+  {"label":"天地图影像",
+    "value":[
+      {"date":"201701","legend":"","tileurl":"http://t1.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}","tileSize":256,"tiletype":"raster"},
+      {"date":"201804","legend":"","tileurl":"http://t1.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}","tileSize":256,"tiletype":"raster"}
+    ]
+  }
+],
+ "over_source":[
+  {"label":"长势评估",
+    "value":[
+      {"date":"201803","legend":"../../static/legend/zhangshi.png","tileurl":"http://192.168.1.64:8066/ime-server/rest/wmts-hnzs/wmts?SERVICE=WMTS&REQUEST=GetTile&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image%2Fjpgpng","tileSize":256,"tiletype":"raster"},
+      {"date":"201804","legend":"../../static/legend/zhangshi.png","tileurl":"http://192.168.1.64:8066/ime-server/rest/wmts-hnzs/wmts?SERVICE=WMTS&REQUEST=GetTile&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image%2Fjpgpng","tileSize":256,"tiletype":"raster"}
+    ]
+  },
+  {"label":"产量评估",
+    "value":[
+      {"date":"201805","legend":"../../static/legend/chanliang.png","tileurl":"http://192.168.1.64:8066/ime-server/rest/wmts-hncl/wmts?SERVICE=WMTS&REQUEST=GetTile&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image%2Fjpgpng","tileSize":256,"tiletype":"raster"}
+    ]
+  }
+]}
